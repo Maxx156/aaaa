@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/html.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main__all.css">
+    <script defer src="js/addtocart.js"></script>
+</head>
+<body>
+    <header style="background-color: #FFFFFF;">
+        <a href="index.html" id="logo">
+            <img src="img/logo.png" alt="" class="logo">
+        </a>
+        <h1>РусАвтоЗапчасти</h1>
+        <div class="header__info">
+            <p>Интернет-магазин:</p>
+            <h2>+7 (903) 344-15-13</h2>
+            <p>часы работы с 9:00 до 22:00 (пн-пт)</p>
+        </div>
+    </header>
+    <main>
+        <div class="main__name">
+            <p id="main__name__text">Корзина</p>
+        </div>
+
+        <div class="buy" onclick="clearCart()" style="display: flex; justify-content: center; margin-bottom: 3.5%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1vw; background-color: #FFFFFF; width: 10%; margin-left: auto; margin-right: auto;
+        height: 2vw; align-content: center; align-items: center; border-radius: 0.75vw;">Очистить корзину</div>
+
+        <div class="main__products" id="cart">
+
+
+
+        </div>
+
+    </main>
+</body>
+</html>
